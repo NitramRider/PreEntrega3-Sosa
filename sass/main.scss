@@ -1,8 +1,13 @@
 @use './base/generales';
 @use './base/variables';
 @use './base/mediaquery';
-@use './base/fonts';
+
 
 @use './components/header';
 @use './components/contacto';
+@use './components/fichatecnica';
+@use './components/footer';
+@use './components/index';
+@use './components/media';
+@use './components/sobremi';
 

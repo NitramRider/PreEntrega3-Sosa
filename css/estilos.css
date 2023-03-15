@@ -1,8 +1,56 @@
-@font-face {
+header, footer, main {
   font-family: "Audiowide", sans-serif;
-  src: url("https://fonts.googleapis.com/css?family=Audiowide") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+}
+
+/*HEADER*/
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+header .navbar {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #adadad;
+  width: 100%;
+}
+header .navbar div .navbar-collapse {
+  flex-direction: row-reverse;
+}
+header .navbar div .nav-item:hover {
+  background: #3ead47;
+}
+header nav div a img {
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+/* parallax */
+.parallax {
+  background-image: url("../img/ninja.webp");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 30px;
+}
+.parallax div {
+  position: relative;
+  top: 0%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.parallax div h1 {
+  color: black;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,37 @@
+/*HEADER*/
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    .navbar {
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding: 10px;
+        background-color: #adadad;
+        width: 100%;
+        div{
+            .navbar-collapse{
+                flex-direction: row-reverse;
+            }
+            .nav-item:hover {
+                background: #3ead47;
+            }
+        }
+    }
+    nav {
+        div {
+            a {
+                img{
+                    height: 80px;
+                    width: 80px;
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
